@@ -90,7 +90,6 @@ That method of working with CSV files seems a bit messy... what if there were a 
 As a matter of fact, there is - `pandas`.
 
 ```python
-import csv
 import pandas
 
 df = pandas.read_csv("weather_report.csv")

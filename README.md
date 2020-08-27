@@ -10,9 +10,9 @@ A dictionary is a data structure for which there are _keys_ (typically meaningfu
 
 ```python
 english_to_french = {
-    "hello": "bonjour"
-    , "world": "monde"
-    , "goodbye": "au revoir"
+	"hello": "bonjour"
+	, "world": "monde"
+	, "goodbye": "au revoir"
 }
 
 print(english_to_french["world"])
@@ -24,16 +24,16 @@ A common use case is to use dictionaries to represent instances of objects / rec
 ```python
 planets = []
 planets.append(
-    {
-        "name": "Mercury"
-        , "diameter_km": "4879"
-    }
+	{
+		"name": "Mercury"
+		, "diameter_km": "4879"
+	}
 )
 planets.append(
-    {
-        "name": "Venus"
-        , "diameter_km": "12104"
-    }
+	{
+		"name": "Venus"
+		, "diameter_km": "12104"
+	}
 )
 
 print(planets[1]["diameter_km"])
@@ -70,9 +70,9 @@ with open('weather_report.csv') as csvfile:
 	
 	# completed
 	print(temperatures)
-        # [16.0, 21.0, 25.0, 22.0, 23.0]
+		# [16.0, 21.0, 25.0, 22.0, 23.0]
 	print(numpy.mean(temperatures))
-        # 21.4
+		# 21.4
 ```
 
 There's a few things to unpack here:
@@ -95,5 +95,5 @@ import pandas
 
 df = pandas.read_csv("weather_report.csv")
 print(df["Temperature"].mean())
-    # 21.4
+	# 21.4
 ```
